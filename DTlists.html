@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Daily Tasks</title>
+    <link rel="stylesheet" href="DTlists.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <meta j M and M>
+    
+  </head>
+  <body>
+    <div class="mainbox">
+      <div class="task-input">
+        
+        <input type="text" placeholder="Add a new task and hit ENTER">
+        
+      </div>
+      <div class="powers">
+        <div class="netting">
+          <span class="active" id="all">All</span>
+          <span id="completed">Done</span>
+          <span id="pending">Pending</span>
+          <span id="deadline">Deadlines</span>
+          <b></b>
+          <b></b>
+          <h1>Choose a Category</h1>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="Work" /> 
+						<span class="bubble Work"></span>
+						<div>Work</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+				</div>
+        </div>
+        <button class="clear-btn">Remove All</button>
+      </div>
+
+      <ul class="task-box"></ul>
+    </div>
+    
+    <script src="DTlists.js"></script>
+  </body>
+</html>
